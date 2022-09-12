@@ -8,7 +8,8 @@ def selectionSort(array, size) -> List[int]:
      min_idx = i
      for j in range(i+1, len(data)):
           if data[min_idx] > data[j]:
-              min_idx = j
+               min_idx = j
+           
              
     # Swap the found minimum element with
     # the first element       
