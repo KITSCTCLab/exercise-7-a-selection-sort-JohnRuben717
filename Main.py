@@ -1,12 +1,12 @@
 from typing import List
 
 def selectionSort(array, size) -> List[int]:
-      for i in range(len(nums)-1,0,-1):
+      for i in range(len(data)-1,0,-1):
         for j in range(i):
-            if nums[j] > nums[j+1]:
-                temp = nums[j]
-                nums[j] = nums[j+1]
-                nums[j+1] = temp
+            if data[j] > data[j+1]:
+                temp = data[j]
+                data[j] = data[j+1]
+                data[j+1] = temp
   # Write your code here
 
 # Do not change the following code
